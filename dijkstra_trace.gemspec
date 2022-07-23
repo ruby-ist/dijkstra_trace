@@ -1,12 +1,12 @@
 Gem::Specification.new do |s|
     s.name        = "dijkstra_trace"
-    s.version     = "0.0.1"
+    s.version     = "0.0.2"
     s.summary     = "Dijkstra Algorithm"
     s.description = "A simple Dijkstra Algorithm to find the shortest path between any two points in the undirected graph."
     s.authors     = ["Sriram V"]
     s.email       = "srira.venkat@gmail.com"
     s.files       = ["lib/dijkstra_trace.rb"]
-    s.homepage    =
-        "https://rubygems.org/gems/dijkstra_trace"
-    s.license       = "MIT"
+    s.homepage    = "https://rubygems.org/gems/dijkstra_trace"
+    s.license     = "MIT"
+    s.metadata    = { "source_code_uri" => "https://github.com/ruby-ist/dijkstra_trace" }
 end
