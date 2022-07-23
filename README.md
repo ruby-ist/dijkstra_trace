@@ -1,18 +1,18 @@
 # Dijkstra Trace
-___
+
 A simple Dijkstra algorithm implementation to find the shortest path between any two points in the undirected graph. 
 
 ## Installation
-___
+
 Install the gem by adding the following line in your Gemfile and run `bundle install`
-```
+```ruby
 gem 'dijkstra_trace'
 ```
 or simply run `bundle add dijkstra_trace`
 ## Usage
-___
+
 Create an object for `Dijkstra::Trace` class with the graph edges as its argument.
-```
+```ruby
 require 'dijkstra_trace'
 
 edges = [
@@ -48,7 +48,7 @@ puts "The shortest path: #{path.path}"
 The shortest distance between 2 and 13 is 360 units
 The shortest path: [2, 5, 8, 9, 11, 13]
 ```
-___
+
 The Graph matrix and the adjacent matrix can also be viewed by calling the methods `graph_matrix` and `adjacent_matrix` on the `Dijkstra::Trace` class object.
 ```
 irb(main):001:0> pp graph.graph_matrix
