@@ -49,6 +49,21 @@ The shortest distance between 2 and 13 is 360 units
 The shortest path: [2, 5, 8, 9, 11, 13]
 ```
 
+The Vertices is not only limited to numbers, it can be any type as long as it can be used as a key for an `Hash`
+```ruby
+edges = [
+    ["City A", "City B", 200],
+    ["City B", "City C", 60],
+    ["City A", "City C", 270],
+]
+graph = Dijkstra::Trace.new(edges)
+path = graph.path("City A", "City C")
+pp path.path
+```
+### Output
+```
+["City A", "City B", "City C"]
+```
 The Graph matrix and the adjacent matrix can also be viewed by calling the methods `graph_matrix` and `adjacent_matrix` on the `Dijkstra::Trace` class object.
 ```
 irb(main):001:0> pp graph.graph_matrix
