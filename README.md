@@ -1,4 +1,6 @@
-# Dijkstra Trace
+# Dijkstra Trace 
+
+[![Gem Version](https://badge.fury.io/rb/dijkstra_trace.svg)](https://badge.fury.io/rb/dijkstra_trace)
 
 A simple Dijkstra algorithm implementation to find the shortest path between any two points in the undirected graph. 
 
