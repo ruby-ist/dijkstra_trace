@@ -1,6 +1,6 @@
 Gem::Specification.new do |s|
     s.name        = "dijkstra_trace"
-    s.version     = "0.0.2"
+    s.version     = "0.1.1"
     s.summary     = "Dijkstra Algorithm"
     s.description = "A simple Dijkstra Algorithm to find the shortest path between any two points in the undirected graph."
     s.authors     = ["Sriram V"]
