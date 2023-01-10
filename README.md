@@ -67,6 +67,8 @@ pp path.path
 ["City A", "City B", "City C"]
 ```
 The Graph matrix and the adjacent matrix can also be viewed by calling the methods `graph_matrix` and `adjacent_matrix` on the `Dijkstra::Trace` class object.
+
+Graph Matrix for the first output:
 ```
 irb(main):001:0> pp graph.graph_matrix
 
